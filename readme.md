@@ -19,6 +19,7 @@ Client:
 - [x] Inputs for two numbers
 - [x] Buttons for mathematical operator
 - [x] 'calculate' Button
+- [x] clear button
 - [x] package input
 - [x] send to Server
 

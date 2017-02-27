@@ -1,5 +1,11 @@
 $('document').ready(function(){
   console.log('JQ');
+  $('#clearButton').on('click', function(){
+    //empty our inputs
+    $('#num0').val('');
+    $('#num1').val('');
+    $('#outputP').text('');
+  });
   $('.operatorButton').on('click', function(){
     // what type of operator is this?
     var myOperator = $(this).data('operator');
@@ -14,7 +20,8 @@ $('document').ready(function(){
       type: myOperator
     };
     console.log('sending', objectToSend);
-    // recieve and answer// display answer on DOM
+    // recieve and answer
+    // display answer on DOM
     $.ajax({
       type: 'POST',
       url: '/math',
@@ -27,8 +34,5 @@ $('document').ready(function(){
       }
     }); // end ajax
   }); // end operatorButton click
-
-
-
   /// END TEXT POST
 }); // end doc.ready
