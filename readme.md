@@ -5,10 +5,11 @@ Server Side Calculator
 --------------------
 Spin up JEN stack app:
 --------------------
-- [ ] node/express + jQuery
-- [ ] serving html file ('/' get url)
-- [ ] w/ sourced js file
-- [ ] test jQuery is working
+- [x] node/express + jQuery
+- [x] serving html file ('/' get url)
+- [x] w/ sourced js file
+- [x] test jQuery is working
+- [ ] 
 - [ ] POST route for '/math' test
 
 -= PRESENTATIONS/LUNCH =-
