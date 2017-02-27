@@ -1,0 +1,25 @@
+{
+  "name": "calculator-weekend-3",
+  "version": "1.0.0",
+  "description": "Phi Week 3 Live Solve --------------------",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node lib/server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonholup/calc-walkthrough.git"
+
+  },
+  "author": "Dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonholup/calc-walkthrough/issues"
+  },
+  "homepage": "https://github.com/jonholup/calc-walkthrough#readme",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1"
+  }
+}
